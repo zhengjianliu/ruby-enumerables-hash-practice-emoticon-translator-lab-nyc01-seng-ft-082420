@@ -40,7 +40,7 @@ def get_english_meaning(path,emoticon)
   libaray = load_library(path)
   libaray.each do |m,v|
     if emoticon == v[:japanese]
-      output = m[:japanese]
+      output = m
     end
     if output == ""
       output = apology
