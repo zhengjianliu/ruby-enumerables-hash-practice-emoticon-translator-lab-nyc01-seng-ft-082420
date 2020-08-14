@@ -15,7 +15,9 @@ def load_library(file)
 end
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(file)
+  data = YAML.load_file(file)
+  binding.pry
   # code goes here
   
   
