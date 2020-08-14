@@ -20,6 +20,7 @@ def get_japanese_emoticon(path,emoticon)
   # code goes here
   libaray = load_library(path)
   libaray.each do |m,v|
+end
   binding.pry
 end
   
