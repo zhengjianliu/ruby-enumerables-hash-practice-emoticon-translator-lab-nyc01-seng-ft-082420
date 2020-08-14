@@ -21,8 +21,8 @@ def get_japanese_emoticon(path,emoticon)
   libaray = load_library(path)
   libaray.each do |m,v|
     if emotion == v[:english]
-      
-end
+      return v[:japanese]
+    end
   binding.pry
 end
   
