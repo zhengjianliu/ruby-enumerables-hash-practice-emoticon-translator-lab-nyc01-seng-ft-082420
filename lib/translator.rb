@@ -25,6 +25,7 @@ def get_japanese_emoticon(path,emoticon)
       output = v[:japanese]
     else
       output = ""
+    end
     if emoticon == ""
       return apology
     end
