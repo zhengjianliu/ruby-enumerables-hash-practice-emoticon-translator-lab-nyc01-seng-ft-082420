@@ -16,9 +16,7 @@ end
 end
 
 def get_japanese_emoticon(file)
-  data = YAML.load_file(file)
-  data
-  binding.pry
+
   # code goes here
   
   
