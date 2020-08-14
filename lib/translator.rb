@@ -16,14 +16,14 @@ end
 end
 
 def get_japanese_emoticon(path,emoticon)
-  apology = "sorry, nothing was found!"
+  apology = "Sorry, that emoticon was not found"
   # code goes here
   libaray = load_library(path)
   libaray.each do |m,v|
     if emoticon == v[:english]
       return v[:japanese]
     else
-      apology
+      return apology
     end
   #binding.pry
 end
