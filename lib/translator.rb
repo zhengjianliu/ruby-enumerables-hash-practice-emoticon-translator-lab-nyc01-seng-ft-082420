@@ -22,6 +22,8 @@ def get_japanese_emoticon(path,emoticon)
   libaray.each do |m,v|
     if emoticon == v[:english]
       return v[:japanese]
+    else
+      return apology
     end
   #binding.pry
 end
