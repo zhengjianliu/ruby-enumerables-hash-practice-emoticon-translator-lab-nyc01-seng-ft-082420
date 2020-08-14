@@ -19,9 +19,12 @@ def get_japanese_emoticon(path,emoticon)
 
   # code goes here
   data = YAML.load_file(path)
-  data.each_with_object({}) do |(icon, value),final_hash|
+  data.each_with_object({}) do |(meaning, value),final_hash|
   if emoticon == value
+    return meaning
+  end
   binding.pry
+end
 end
   
 end
