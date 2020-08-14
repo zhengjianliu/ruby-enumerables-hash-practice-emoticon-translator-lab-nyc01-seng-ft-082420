@@ -45,7 +45,7 @@ def get_english_meaning(path,emoticon)
     if output == ""
       output = apology
     end
-  #binding.pry
+  binding.pry
 end
 output
 end
