@@ -47,7 +47,7 @@ def get_english_meaning(path,emoticon)
     end
 end
 output
-binding.pry
+#binding.pry
 end
 
 
