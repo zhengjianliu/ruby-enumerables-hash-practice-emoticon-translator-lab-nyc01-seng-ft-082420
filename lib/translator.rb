@@ -20,9 +20,6 @@ def get_japanese_emoticon(path,emoticon)
   # code goes here
   data = YAML.load_file(path)
   result = data.each_with_object({}) do |(icon, value),final_hash|
-    if !final_hash[icon]
-      final_hash[icon][:japanese]
-    end
   result
   binding.pry
 end
