@@ -19,7 +19,6 @@ def get_japanese_emoticon(path,emoticon)
 
   # code goes here
   libaray = load_library(data)
-  
   binding.pry
 end
   
