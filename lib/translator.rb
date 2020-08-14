@@ -19,6 +19,7 @@ def get_japanese_emoticon(path,icon)
 
   # code goes here
   data = YAML.load_file(path)
+  result = data.each_with_object({}) do
   
 end
 
