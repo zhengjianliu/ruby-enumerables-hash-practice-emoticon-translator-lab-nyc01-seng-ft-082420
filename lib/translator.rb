@@ -16,7 +16,7 @@ end
 end
 
 def get_japanese_emoticon(path,emoticon)
-
+  apology = "sorry, nothing was found!"
   # code goes here
   libaray = load_library(path)
   libaray.each do |m,v|
